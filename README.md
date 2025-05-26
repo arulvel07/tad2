@@ -15,4 +15,6 @@ Each land cell (`1`) contributes **4** to the perimeter. But if its neighboured 
 
 ![island pic](island.png)
 
-- copt pasted the code from leetcode after confirmining all test cases are working
+- copy pasted the code from leetcode after confirmining all test cases are working
+- done writting int main for the function
+- completed 1st part in 1st question
