@@ -15,6 +15,11 @@ Each land cell (`1`) contributes **4** to the perimeter. But if its neighboured 
 
 ![island pic](island.png)
 
+    Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
+    output: 16
+    Explanation: The perimeter is the 16 yellow stripes in the image above.
+
+
 - copy pasted the code from leetcode after confirmining all test cases are working
 - done writting int main for the function
 - completed 1st part in 1st question
