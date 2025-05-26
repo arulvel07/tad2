@@ -2,6 +2,7 @@
 ---
 ## Day - 1 (26/05)
 Cloned the repo into local system and then added a markdown readme file
+## Day - 2 (27/05)
 ##  1. Problem Solving on graphs
 ### i) **Core Logic for this question**
 
