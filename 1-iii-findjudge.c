@@ -19,3 +19,24 @@ int findJudge(int n, int** trust, int trustSize, int* trustColSize) {
 }
 
 
+int main(){
+    int n, trustSize;
+    printf("Enter number of people in the village(n):- ");
+    scanf("%d", &n);
+    printf("Enter number of trust relationships: ");
+    scanf("%d", &trustSize);
+    int **trust =(int**)malloc(trustSize*sizeof(int*));  //2d array where [a,b] means a trusts b
+    int *trustColSize=(int*)malloc(trustSize*sizeof(int));
+    printf("Enter the trust pairs (a,b) where a trusts b:- ");
+    for(int i=0; i<trustSize; i++){
+        trust[i]=(int*)malloc(2*sizeof(int));
+        scanf("%d", &trust[i][0]);
+        scanf("%d", &trust[i][1]);
+        trustColSize[i]=2;
+    }
+
+    int judge=findJudge(n, trust, trustSize, trustColSize);
+    if(judge==-1) printf("judge do not exist");
+    else printf("the judge is %d", judge);
+    return 0;
+}
