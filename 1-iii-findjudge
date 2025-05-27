@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+int findJudge(int n, int** trust, int trustSize, int* trustColSize) {
+    if(n==1 && trustSize==0) return 1;  //then he is the judge
+    int* trusts = (int*)calloc(n + 1, sizeof(int));
+    int* trusted_by = (int*)calloc(n + 1, sizeof(int));
+    for (int i = 0; i < trustSize; i++) {
+        int a = trust[i][0]; // a trusts b
+        int b = trust[i][1]; 
+        trusts[a]++;
+        trusted_by[b]++;
+    }
+    for (int i = 1; i <= n; i++) {
+        if (trusted_by[i] == n - 1 && trusts[i] == 0) { //if i trusts no one and trusted_by all ie n-1
+            return i; //i is judge
+        }
+    }
+    return -1;
+}
