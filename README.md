@@ -22,7 +22,7 @@ Each land cell (`1`) contributes **4** to the perimeter. But if its neighboured 
 
 - copy pasted the code from leetcode after confirmining all test cases are working
 - done writting int main for the function
-- completed 1st part in 1st question
+- completed 1st sub part in 1st question
 
 ## Day - 2 (28/05)
 ### iii) **Core Logic for this question**
@@ -38,3 +38,5 @@ To solve this efficiently, we use two arrays:
 
 - Question done in leetcode and checked if all test cases are working
 - copied pasted on a c file
+- wrote the int main
+- completed 3rd subpart in 1st question
