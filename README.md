@@ -40,3 +40,6 @@ To solve this efficiently, we use two arrays:
 - copied pasted on a c file
 - wrote the int main
 - completed 3rd subpart in 1st question
+
+## Day - 2 (30/05)
+- Spent time trying different ideas and algorithms for "Minimum Fuel Cost to Report to the Capital" question
