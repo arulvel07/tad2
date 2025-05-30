@@ -24,7 +24,7 @@ Each land cell (`1`) contributes **4** to the perimeter. But if its neighboured 
 - done writting int main for the function
 - completed 1st sub part in 1st question
 
-## Day - 2 (28/05)
+## Day - 3 (28/05)
 ### iii) **Core Logic for this question**
 We need to **identify the "town judge"**, if they exist. A town judge must:
 - Trust **nobody**
@@ -41,5 +41,9 @@ To solve this efficiently, we use two arrays:
 - wrote the int main
 - completed 3rd subpart in 1st question
 
-## Day - 2 (30/05)
+## Day - 4 (30/05)
 - Spent time trying different ideas and algorithms for "Minimum Fuel Cost to Report to the Capital" question
+
+
+## Day - 5 (30/05)
+- spent time learning the graphs algorithms
